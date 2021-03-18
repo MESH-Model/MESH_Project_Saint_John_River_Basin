@@ -1,4 +1,4 @@
-# Project Title Hydrological Modelling of Saint John River Basin
+# Hydrological Modelling of Saint John River Basin
 
 ## Team
   Sujata Budhathoki, Karl-Erich Lindenschmidt, Dan Princz, Prabin Rokaya
