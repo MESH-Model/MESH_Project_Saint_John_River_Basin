@@ -1,27 +1,21 @@
-# Project Title
+# Project Title Hydrological Modelling of Saint John River Basin
 
 ## Team
-  *Include the name of modeller(s), advisors, and other contributors involved in the project here, as well as key contact information*
+  Sujata Budhathoki, Karl-Erich Lindenschmidt, Dan Princz, Prabin Rokaya
 
 ## Date
 *Date(s) of the project*
 
 ## Purpose
-  *Give a brief summary of the purpose of the modelling project here*
-
-## Objectives and Main Tasks
-  *List the objectives of the modelling, as well as a summary of the project structure and tasks completed*
+  -Set up hydrological model for Saint John River Basin (SJRB)
+  -Production run for SJRB
+  -Climate change scenarios runs
 
 ## Basin Meta-data
-*Include a link to the MESH Wiki "Basin Meta-data" page, if created. Otherwise, link to a "Basin_Metadata.md" file in the "Site" folder
-
-[Basin Meta-data on MESH Wiki Page](https://wiki.usask.ca/display/MESH/Basin+Meta-data) *Update to go directly to the basin page*
-
-[Basin Meta-data File](https://github.com/HaleyBrauner/MESH_Repo_Template/blob/master/Site/BasinMetaData.md)
+https://wiki.usask.ca/display/MESH/Saint+John+River+Basin
 
 ## Progress / Conclusion
-*Include periodic updates on the modelling progress here, or even just "in progress"*
-*Include the main findings of the modelling, and further recommendations*
+In progress
 
 ## References
 - List any scripts, packages, etc. used
