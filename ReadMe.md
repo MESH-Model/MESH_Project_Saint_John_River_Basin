@@ -7,9 +7,9 @@
 *Date(s) of the project*
 
 ## Purpose
-  -Set up hydrological model for Saint John River Basin (SJRB)
-  -Production run for SJRB
-  -Climate change scenarios runs
+ - Set up hydrological model for Saint John River Basin (SJRB)
+ - Production run for SJRB
+ - Climate change scenarios runs
 
 ## Basin Meta-data
 https://wiki.usask.ca/display/MESH/Saint+John+River+Basin
