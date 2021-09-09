@@ -4,10 +4,10 @@ This folder contains the raw data used in the project. Due to its large storage 
 The Forcing Datasets available for the Saint John River Basin are : 
 ![image](https://user-images.githubusercontent.com/30961063/132728175-43f16c20-ead1-4ec9-a647-6d70c37b8461.png)
 
-To download the raw data:
-- Open the "pullRawData.sh" file in a text editor
-- Change the Graham user name to your own
-- Remove or add the "--dry-run" flag, as warranted
-- Run the script from the command line. This will pull the raw data files from the server to your local machine.
+To transfer raw forcing files folder from master folder to your account in Graham:
+scp -r user_name@graham.usask.ca:/project/6008034/Model_Output/181_WFDEI-GEM-CaPA_1979-2016 user_name@graham.computecanada.ca:/project/6008034/user_name/WGC
 
-If new raw data files are to be added to Graham, use the "pushRawData.sh" file in the same manner.
+To transfer forcing files from one cluster (like Graham) to another cluster (like Plato)
+First ssh to plato then type following
+scp -r user_name@graham.computecanada.ca:/project/6008034/Model_Output/181_WFDEI-GEM-CaPA_1979-2016 /home/user_name/WGC 
+
