@@ -1,9 +1,5 @@
 # Hydrological Modelling of Saint John River Basin
 
-# Test 
-
-Hello
-
 ## Team
   Sujata Budhathoki, Karl-Erich Lindenschmidt, Bruce Davison, Dan Princz, Prabin Rokaya
 
