@@ -1,7 +1,7 @@
 # Hydrological Modelling of Saint John River Basin
 
 ## Team
-  Sujata Budhathoki, Karl-Erich Lindenschmidt, Bruce Davison, Dan Princz, Prabin Rokaya
+  Sujata Budhathoki, Karl-Erich Lindenschmidt, Bruce Davison, Daniel Princz, Prabin Rokaya
 
 ## Date
 September 2021
