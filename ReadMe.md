@@ -4,12 +4,17 @@
   Sujata Budhathoki, Karl-Erich Lindenschmidt, Bruce Davison, Dan Princz, Prabin Rokaya
 
 ## Date
-*Date(s) of the project*
+September 2021
 
 ## Purpose
- - Set up hydrological model for Saint John River Basin (SJRB)
+ - Model Benchmarking for Saint John River Basin (SJRB)
+ * Model setup
+ * Evaluation of forcing data
+ * Water balance calculation
+ 
  - Production run for SJRB
- - Climate change scenarios runs
+ * Evaluation of historical simulation driven by GCM
+ * Assessmnet of future hydrological conditions
 
 ## Basin Meta-data
 https://wiki.usask.ca/display/MESH/Saint+John+River+Basin
@@ -18,12 +23,15 @@ https://wiki.usask.ca/display/MESH/Saint+John+River+Basin
 In progress
 
 ## References
-- List any scripts, packages, etc. used
-- Related research papers and other information (theory, parameter selection, etc.); could include a copy in Model>Justification folder
-- Manuals (ex. CLASS, Ostrich, MESH Wiki, other)
+- Kidd, S D, R A Curry, and K R Munkittrick. The Saint John River: A State of the Environment Report. Fredericton, New Brunswick, Canada: Canadian River Institute - University of New Brunswick, 2011. https://www.unb.ca/research/institutes/cri/_resources/pdfs/criday2011/cri_sjr_soe_final.pdf
+- https://code.mpimet.mpg.de/projects/cdo/embedded/cdo.pdf
+- Canadian Hydraulics Centre. (2010). Green Kenue Reference Manual. 
+- Pietroniro, A., Fortin, V., Kouwen, N., Neal, C., Turcotte, R., Davison, B., . . . Evora, N. (2007). Development of the MESH modelling system for hydrological ensemble forecasting of the Laurentian Great Lakes at the regional scale. Hydrology and Earth System Sciences, 11(4), 1279-1294. 
+-  Verseghy, D. (2009). CLASS–The Canadian Land Surface Scheme (Version 3.4), Technical Documentation (Version 1.1). Climate Research Division, Science and Technology Branch, Environment Canada, 180.
+- Yamazaki, D., Ikeshima, D., Tawatari, R., Yamaguchi, T., O'Loughlin, F., Neal, J. C., ... & Bates, P. D. (2017). A high‐accuracy map of global terrain elevations. Geophysical Research Letters, 44(11), 5844-5853
+- Matott, L. S. (2005). OSTRICH: An optimization software tool: Documentation and users guide. University 
+548 at Buffalo, Buffalo, NY
 
-___
-___
 # Folder Structure
 Given the file size limitations of GitHub, only smaller files are stored here and the rest are stored on Graham. The files can be synced with the local machine via the respective push/pull bash scripts included in the Data/Raw and Model folders.
 
@@ -33,34 +41,32 @@ Given the file size limitations of GitHub, only smaller files are stored here an
 ## Data
 
 ### Raw
-- Include raw data files here. It is best to change the permissions to "Read Only".
+- Include raw data files here.
 
 ### Processed
 - Includes processed driving data, spatial data, and validation data (ex. streamflow).
 
 #### Driving
-- *Processed driving data used in the model*
-- *Scripts used to generate the files should be included in the "Code" folder*
+- Processed driving data used in the model
+- Scripts used to generate the files is included in the "Code" folder
 
 #### Spatial
-- *Ex. GIS files, Green Kenue files*
+- Ex. GIS files, Green Kenue files, DEM, Soil, landcover and bedrock data
 
 #### Validation
-- *ex. streamflow*
+- Streamflow data
 
 ## Model
-- *The ReadMe files should give an overview of the modelling methodology, as well as the differences between scenarios/runs*
-- *Include model notes in this main "Model" folder, as available*
+- The ReadMe files gives an overview of the modelling methodology, as well as the differences between model runs
 
 ### Justification
-- *Include files related to scenario configuration choice, parameter selection, initial conditions, etc.*
+- Include files related to scenario configuration choice, parameter selection, initial conditions, etc.
 
 ### MESH_Code
-- *Holds the MESH code used for running the mode; use a new folder for each version (include the version as a suffix)*
-- *If any modification of the code were made, or more than one version was used, include a text file listing the MESH code versions, the main differences and reason for use, and details of the modifications*
+- MESH code used for running the model
 
 ### Ostrich
-- *This folder contains a copy of the Ostrich program (uncompiled); be sure to put the compiled file in .gitignore*
+- This folder contains a copy of the Ostrich program (uncompiled)
 
 ### ConfigurationX*
 *1 folder for each configuration, each with input and output sub-folders*
@@ -72,11 +78,7 @@ Given the file size limitations of GitHub, only smaller files are stored here an
   - *Includes the output files for the model configuration / each run*
 
 ## Presentations
-- *Contains powerpoint (or similar), poster, or other presentations or reports related to the project (formal or otherwise)*
+- Contains powerpoint (or similar), poster, or other presentations or reports related to the project
 
 ## Site
-*Can include:
-- Maps
-- PhotosVideos
-- Site Meta-data
-- etc.*
+Include maps of the study site
