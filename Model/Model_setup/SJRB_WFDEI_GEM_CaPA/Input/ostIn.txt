@@ -1,0 +1,120 @@
+ProgramType  ParaPADDS
+ObjectiveFunction  GCOP
+ModelExecutable  ./OST_MESH.sh
+PreserveBestModel ./save_best.sh
+ModelSubdir SJR
+
+BeginFilePairs
+MESH_parameters_CLASS.tpl ; MESH_parameters_CLASS.ini
+MESH_parameters_hydrology.tpl ; MESH_parameters_hydrology.ini
+EndFilePairs 
+
+BeginParams
+#name     init.	  lower   upper	        transformations		 format
+____DRN1   random          0.0     1.0        none   none   none         F8.3
+____DRN2   random          0.0     1.0        none   none   none         F8.3
+____DRN3   random          0.0     1.0        none   none   none         F8.3
+____DRN4   random          0.0     1.0        none   none   none         F8.3
+____DRN5   random          0.0     1.0        none   none   none         F8.3
+____DRN7   random          0.0     1.0        none   none   none         F8.3
+___SDEP1   random          3.0     4.1        none   none   none         F8.3
+___SDEP2   random          3.0     4.1        none   none   none         F8.3
+___SDEP3   random          3.0     4.1        none   none   none         F8.3
+___SDEP4   random          3.0     4.1        none   none   none         F8.3
+___SDEP5   random          3.0     4.1        none   none   none         F8.3
+___SDEP7   random          3.0     4.1        none   none   none         F8.3
+___MANN1   random          0.02    0.16       none   none   none         F8.3
+___MANN2   random          0.02    0.16       none   none   none         F8.3
+___MANN3   random          0.02    0.16       none   none   none         F8.3
+___MANN4   random          0.02    0.16       none   none   none         F8.3
+___MANN5   random          0.02    0.16       none   none   none         F8.3
+___MANN7   random          0.02    0.16       none   none   none         F8.3
+___KSAT1   random          0.00001 0.1        none   none   none         F8.3
+___KSAT2   random          0.00001 0.1        none   none   none         F8.3
+___KSAT3   random          0.00001 0.1        none   none   none         F8.3
+___KSAT4   random          0.00001 0.1        none   none   none         F8.3
+___KSAT5   random          0.00001 0.1        none   none   none         F8.3
+___KSAT7   random          0.00001 0.1        none   none   none         F8.3
+_SND_1_1   random          27      69         none   none   none  		F8.3  # Sand % soil layer 1
+_SND_1_2   random          27      69         none   none   none  		F8.3  # Sand % soil layer 2
+_SND_1_3   random          29      65         none   none   none  		F8.3  # Sand % soil layer 3
+_SND_2_1   random          27      69         none   none   none  		F8.3  # Sand % soil layer 1
+_SND_2_2   random          27      69         none   none   none  		F8.3  # Sand % soil layer 2
+_SND_2_3   random          29      65        none   none   none  		F8.3  # Sand % soil layer 3
+_SND_3_1   random          27      69         none   none   none  		F8.3  # Sand % soil layer 1
+_SND_3_2   random          27      69         none   none   none  		F8.3  # Sand % soil layer 2
+_SND_3_3   random          29      65         none   none   none  		F8.3  # Sand % soil layer 3
+_CLY_1_1   random           8      23         none   none   none  		F8.3  # Clay % soil layer 1
+_CLY_1_2   random           8      23         none   none   none  		F8.3  # Clay % soil layer 2
+_CLY_1_3   random           8      30         none   none   none  		F8.3  # Clay % soil layer 3
+_CLY_2_1   random           8      23         none   none   none  		F8.3  # Clay % soil layer 1
+_CLY_2_2   random           8      23         none   none   none  		F8.3  # Clay % soil layer 2
+_CLY_2_3   random           8      30        none   none   none  		F8.3  # Clay % soil layer 3
+_CLY_3_1   random           8      23        none   none   none  		F8.3  # Clay % soil layer 1
+_CLY_3_2   random           8      23        none   none   none  		F8.3  # Clay % soil layer 2
+_CLY_3_3   random           8      30        none   none   none  		F8.3  # Clay % soil layer 3
+____R2N1   random          0.001    2.0        none   none   none         F8.3
+____R2N2   random          0.001    2.0        none   none   none         F8.3
+____R2N3   random          0.001    2.0        none   none   none         F8.3
+____R2N4   random          0.001    2.0        none   none   none         F8.3
+____R2N5   random          0.001    2.0        none   none   none         F8.3
+____R1N1   random          0.001    2.0        none   none   none         F8.3
+____R1N2   random          0.001    2.0        none   none   none         F8.3
+____R1N3   random          0.001    2.0        none   none   none         F8.3
+____R1N4   random          0.001    2.0        none   none   none         F8.3
+____R1N5   random          0.001    2.0        none   none   none         F8.3
+___ZSNL1 	random      0.05     0.1        none   none   none         F8.3 #
+___ZSNL2 	random      0.05     0.1        none   none   none         F8.3 #   
+___ZSNL3 	random      0.05     0.1        none   none   none         F8.3 #
+___ZSNL4 	random      0.05     0.1        none   none   none         F8.3 #   
+___ZSNL5 	random      0.05     0.1        none   none   none         F8.3 #    
+___ZSNL7 	random      0.05     0.1        none   none   none         F8.3 #
+_____pwr1   random          2.0     3.0        none   none   none         F8.3
+_____pwr2   random          2.0     3.0        none   none   none         F8.3
+_____pwr3   random          2.0     3.0        none   none   none         F8.3
+_____pwr4   random          2.0     3.0        none   none   none         F8.3
+_____pwr5   random          2.0     3.0        none   none   none         F8.3
+_____flz1   random       0.000001   0.0001      none   none   none         F9.6
+_____flz2   random       0.000001   0.0001      none   none   none         F9.6
+_____flz3   random       0.000001   0.0001      none   none   none         F9.6
+_____flz4   random       0.000001   0.0001      none   none   none         F9.6
+_____flz5   random       0.000001   0.0001      none   none   none         F9.6
+EndParams
+
+BeginTiedParams
+#name       np  pname1    pname2    pname3    type   type_data   type_data   type_data
+EndTiedParams
+
+BeginInitParams 
+EndInitParams
+
+BeginResponseVars
+#name      filename            keyword     line     col      token
+NSL1        Metrics_Out.txt ;            OST_NULL     8        6        ' '	
+LNS2        Metrics_Out.txt ;            OST_NULL     8        8        ' '
+NSL2        Metrics_Out.txt ;            OST_NULL     4        6        ' '	
+EndResponseVars
+
+BeginTiedRespVars
+Total1       1   NSL1                 wsum   -1.0  
+Total2       1   LNS2                 wsum   -1.0 
+Total3       1   NSL2                 wsum   -1.0 
+EndTiedRespVars
+
+BeginGCOP
+CostFunction Total1
+CostFunction Total2
+CostFunction Total3
+PenaltyFunction APM
+EndGCOP
+
+BeginConstraints
+# no constraints, but include section to avoid warning message
+EndConstraints
+
+BeginParaPADDS
+PerturbationValue 0.2
+MaxIterations 15000
+# EnableDebugging
+# UseInitialParamValues
+EndParaPADDS
