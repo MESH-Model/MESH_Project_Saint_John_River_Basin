@@ -1,4 +1,4 @@
-# MODEL SETUP
+# Model setup
 
 For model benchmarking, MESH model was separately calibrated using all four meteorological forcing data (i.e., GEM-CaPA, RDRS, WFDEI, WFDEI-GEM-CaPA). The calibration period and the parameters (including initial value, and lower and upper value bounds) were kept consistent across all models for standardized comparison. The calibrated MESH parameters along with their lower and upper value ranges are provided below. 
 
