@@ -8,13 +8,13 @@ September 2021
 
 ## Purpose
  - Model Benchmarking for Saint John River Basin (SJRB)
- * Model setup
- * Evaluation of forcing data
- * Water balance calculation
+  - Model setup
+  - Evaluation of forcing data
+  - Water balance calculation
  
  - Production run for SJRB
- * Evaluation of historical simulation driven by GCM
- * Assessmnet of future hydrological conditions
+  - Evaluation of historical simulation driven by GCM
+  - Assessmnet of future hydrological conditions
 
 ## Basin Meta-data
 https://wiki.usask.ca/display/MESH/Saint+John+River+Basin
