@@ -67,14 +67,14 @@ Given the file size limitations of GitHub, only smaller files are stored here an
 ### Ostrich
 - This folder contains a copy of the Ostrich program (uncompiled)
 
-### ConfigurationX*
+### Model setup
 *1 folder for each configuration, each with input and output sub-folders*
 
 - Input  
-  - *Includes the MESH inputs files, driving data files / symbolic links, and scripts for running the model*
+  - Includes the MESH inputs files, driving data files / symbolic links, and scripts for running the model
 
 - Output
-  - *Includes the output files for the model configuration / each run*
+  - Includes the output files for the model configuration / each run
 
 ## Presentations
 - Contains powerpoint (or similar), poster, or other presentations or reports related to the project
