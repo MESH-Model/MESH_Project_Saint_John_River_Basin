@@ -17,4 +17,4 @@
 # The processed forcing data for 15 ensemble members for CanRCM4-WFDEI-GEM-CaPA is located in Graham:
 
 /project/6008034/Model_Output/SJRB_data/SJRB_Model_setup/SJRB_CanRCM4_WFDEI_GEM_CaPA
-* Go to the forcing folder for each member
+* Go to the forcing folder for each member(e.g R8R1, R8R2 ....)
