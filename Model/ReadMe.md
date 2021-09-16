@@ -6,6 +6,8 @@
 
 - For derivation of future flows CanRCM4 data bias corrected by WGC (CanRCM4-WFDEI-GEM-CaPA) was used to derive the baseline (1991-2020) and future (2041-2070 and 2071-2100) hydrological conditions. The calibrated parameters from WFDEI-GEM-CaPA was used for future climate runs.
 
+- OSTRICH (Optimization Software Toolkit for Research Involving Computational Heuristics), a model-independent and a multi-algorithm optimization program was used for calibration. Within OSTRICH, Parallel Pareto Archived Dynamically Dimensioned Search (ParaPADDS), a multi-objective optimization algorithm was implemented. 
+
 ## The five model runs (for GEM-CaPA, RDRS, WFDEI, WFDEI-GEM-CaPA and CanRCM4-WFDEI-GEM-CaPA) are located in Graham,
 /project/6008034/Model_Output/SJRB_data/SJRB_Model_setup
 
