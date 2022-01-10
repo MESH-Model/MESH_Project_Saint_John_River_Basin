@@ -1,5 +1,4 @@
-The processed meteorological and spatial datasets are also available at https://doi.or
-g/10.20383/102.0518 (Budhathoki et al., 2021) under a custom license.
+The processed meteorological and spatial datasets are also available at https://doi.org/10.20383/102.0518 (Budhathoki et al., 2021) under a custom license.
 
 
 Reference:
