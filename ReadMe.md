@@ -19,7 +19,9 @@ September 2021
 https://wiki.usask.ca/display/MESH/Saint+John+River+Basin
 
 ## Progress / Conclusion
-In progress
+Completed
+
+Budhathoki, S., Rokaya, P., & Lindenschmidt, K. E. (2021). Impacts of future climate on the hydrology of a transboundary river basin in northeastern North America. Journal of Hydrology, 127317.https://doi.org/10.1016/j.jhydrol.2021.127317
 
 ## References
 - Kidd, S D, R A Curry, and K R Munkittrick. The Saint John River: A State of the Environment Report. Fredericton, New Brunswick, Canada: Canadian River Institute - University of New Brunswick, 2011. https://www.unb.ca/research/institutes/cri/_resources/pdfs/criday2011/cri_sjr_soe_final.pdf
