@@ -13,4 +13,13 @@
     First ssh to plato then type following:
 
     scp -r user_name@graham.computecanada.ca:/project/6008034/Model_Output/181_WFDEI-GEM-CaPA_1979-2016 /home/user_name/WGC 
+    
+- The processed meteorological and spatial datasets are also available at https://doi.org/10.20383/102.0518 (Budhathoki et al., 2021) under a custom license.
+
+
+Reference:
+Budhathoki, S., Rokaya, P., Lindenschmidt, K., Elshamy, M., 2021. Meteorological and
+spatial datasets for Saint John River Basin. Federated Research Data Repository.
+https://doi.org/10.20383/102.0518.
+
 
